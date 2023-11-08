@@ -6,23 +6,25 @@
 *Lombok
 
 ## End-Points
-*GET /person (Find All)
-*GET /person/{id} (Find By Id)
-*POST /person (Resgister)
-### JSON BODY DATA
+| Method  | URI | Description |
+| --- | --- | --- |
+| GET  | /person | Find All |
+| GET  | /person | Find By Id |
+| POST | /person | Register |
+| PUT | /person/{id} | Update |
+| DELETE | /person/{id} | Delete |
+
+**JSON BODY DATA REGISTER**
 ```
   {
     "name": "Euripedes Doutor",
     "email": "juniordoutor@gmail.com"
   }
 ```
-*PUT /person/{id} (Update)
-### JSON BODY DATA
+**JSON BODY DATA UPDATE**
 ```
   {
     "name": "Euripedes Doutor Filho",
     "email": "juniordoutor_test@gmail.com"
   }
 ```
-*DELETE /person/{id}
-## 

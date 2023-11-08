@@ -1,9 +1,9 @@
 # jpaHibernate
 ## Requirements
-*Java 17
-*Spring-Boot 3.1.5
-*PostgreSql
-*Lombok
+* Java 17
+* Spring-Boot 3.1.5
+* PostgreSql
+* Lombok
 
 ## End-Points
 | Method  | URI | Description |
